@@ -7,7 +7,7 @@ while True:
     lugares.append(input("Lugar de encuesta: "))
     edades.append(int(input("¿Cual es su edad?: ")))
     area.append(input("¿Cual es su carrera?: "))
-    if input("¿Continuar? [Fin = finalizar programa]").lower == "fin":
+    if input("¿Continuar? [Fin = finalizar programa]").lower() == "fin":
         break
 
 for i in range(len(edades)):
